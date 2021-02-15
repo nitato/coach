@@ -1,0 +1,485 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*個々から始める*/
+header{
+  background-color:black;
+  width:1170px;
+  height:40px;
+}
+.header-logo{
+  font-size:22px;
+  color:white;
+  padding:10px;
+  float:left;
+}
+.header-item{
+  display:flex;
+  float:right;
+  padding:10px;
+}
+.gg{
+  color:white;
+  text-decoration:none;
+  padding:10px;
+}
+.eyecatch-wrap{
+  background-image:url(../img/eyecatch.jpg);
+  background-size:cover;
+  color:white;
+  height:600px;
+  width:1170px;
+  position :relative;
+} 
+.eyecatch p{
+  color:white;
+  padding-top:300px;
+  padding-bottom:200px;
+  padding-left:80px;
+  font-size:34px;
+  font-weight:bold;
+}
+.diary {
+  position:absolute;
+  top:540px;
+  left:600px;
+  height:60px;
+  width:500px;
+  background-color:white;
+  color:black;
+}
+.diary p{
+font-size:20px;
+padding-top:8px;
+padding-left:8px;
+}
+.diary h2{
+  padding-top:6px;
+  padding-left:8px;
+}
+.news{
+  background-color:black;
+  position:absolute;
+  top:540px;
+  left:1100px;
+  height:60px;
+  width:70px;
+}
+.news p{
+  font-size :15px;
+  color:white;
+  line-height:60px;
+}
+
+.introduce{
+background-color:black;
+color:white;
+height:400px;
+width:1170px;
+position:relative;
+}
+.introduce h2{
+  color:white;
+  font-size:16px;
+  padding:150px 400px 20px 200px;
+  width:1170px;
+
+
+}
+.introduce p{
+  padding:0px 400px 20px 200px;
+  color:white;
+  width:590px;
+  font-size:3px;
+  padding-bottom:20px;
+  line-height:normal;
+  position:absolute;
+  z-index:2;
+}
+img{
+  position:absolute;
+  top:60px;
+  left:550px;
+  height:400px;
+  width:500px;
+  z-index:1;
+}
+  .btn{
+  color:black;
+  text-decoration:none;
+  border:1px solid white;
+  background:white;
+  width:100px;
+  height:20px;
+  position:absolute;
+  top:240px;
+  left:200px;  
+
+}
+.btn a{
+color:black;
+font-size:12px;
+text-align:center;
+text-decoration:none;
+}
+.blank{
+  width:1170px;
+  background-color:white;
+  height:100px;
+}
+.service{
+  background-color:rgb(221, 218, 218);
+  width:1170px;
+  height:1000px;
+  position:relative;
+}
+
+.service h1{
+background-color:rgb(221, 218, 218);
+color:black;
+width:1170px;
+font-size:30px;
+text-align:center;
+padding-top:10px;
+}
+
+
+.photo-a{
+  position:absolute;
+  top:60px;
+  left:585px;
+  width:585px;
+  height:350px;
+  z-index:1;
+}
+.service-content{
+  background-color:white;
+  position:relative;
+  top:120px;
+  left:200px;
+  color:black;
+  width:450px;
+  line-height:1.5;
+  padding:50px;
+  font-size:10px;
+  z-index:2;
+}
+.service-content h2{
+  color:black;
+  font-size:15px;
+  padding:10px;
+}
+.service-content span{
+line-height:3;
+}
+
+
+.btn-a{
+  color:black;
+  margin:10px;
+  background-color:white;
+  font-size:16px;
+  border:0.5px solid black;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  width:150px;
+  margin:15px 0 0 300px;
+
+}
+.photo-b{
+  width:585px;
+  height:350px;
+  position:absolute;
+  top:520px;
+  left:0px;
+  background-size:cover;
+  z-index:1;
+}
+.service-content-a{
+background-color:white;
+color:black;
+padding:50px;
+position:absolute;
+top:560px;
+left:400px;
+width:450px;
+line-height:1.5;
+font-size:10px;
+z-index:2;
+}
+.service-content-a h2{
+  padding:10px;
+  color:black;
+  font-size:15px;
+}
+.service-content-a span{
+line-height:3;
+}
+.imformation{
+  position:relative;
+  height:700px;
+  width:1170px;
+}
+.company{
+  height:150px;
+  width:550px;
+  background-image:url(../img/company.jpeg);
+  position:absolute;
+  top:0;
+  left:0;
+  background-size:cover; 
+}
+.company h2{
+text-align:center;
+color:white;
+padding-top:50px;
+padding-bottom:12px;
+font-size:30px;
+}
+.company p{
+text-align:center;
+color:white;
+}
+.recruit{
+  height:150px;
+  width:550px;
+  position:absolute;
+  top:0;
+  left:620px;
+  background-image:url(../img/recruit.jpg);
+  background-size:cover;
+}
+.recruit h2{
+text-align:center;
+color:white;
+padding-top:50px;
+padding-bottom:12px;
+font-size:30px;
+}
+.recruit p{
+text-align:center;
+color:white;
+}
+.question{
+position:relative;
+top:400px;
+margin:0 auto;
+color:white;
+background-color:black;
+width:900px;
+height:150px;
+}
+.question p{
+  color:white;
+  font-size:15px;
+  height:150px;
+  text-align:center;
+  padding-top:60px;
+}
+.question h1{
+  font-size:28px;
+  color:white;
+  text-align:left;
+  height:150px;
+  position:absolute;
+  top:60px;
+  left:20px;
+}
+
+
+
+.contact{
+  background-image:url(../img/contact-bg.jpg);
+  width:1170px;
+  height:400px;
+  background-size:cover;
+  background-position:center;
+  padding-top:120px;
+}
+.contact h1{
+  color:white;
+  text-align:center;
+  font-size:30px;
+  font-weight:lighter;
+  padding:10px;
+}
+.contact h2{
+  color:white;
+  text-align:center;
+  font-size:30px;
+  font-weight:lighter;
+  padding-bottom:20px;
+}
+.short{
+  color:white;
+  font-size:12px;
+  text-align:center;
+  padding:0px 10px 40px 10px;
+}
+.long{
+  color:white;
+  font-size:12px;
+  text-align:center;
+  padding:30px;
+}
+
+
+footer{
+  height:100px;
+  width:1170px;
+  background-color:black;
+  color:white;
+}
+.aa{
+  float:left;
+  font-size:22px;
+  padding:10px;
+}
+.last{
+  float:right;
+  padding:10px;
+  color:white;
+}
+.footer-last{
+  text-align:center;
+  color:white;
+  padding-top:85px;
+}
+.contact-btn{
+  color:white;
+  display:block;
+  text-align:center;
+  border:0.5px solid white;
+  text-decoration:none;
+  margin:0 auto;
+  width:150px;
+  height:40px;
+  line-height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
