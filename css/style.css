@@ -194,26 +194,28 @@ position:relative;
 .introduce h2{
   color:white;
   font-size:26px;
-  padding:150px 0px 80px 300px;
-  width:100%;
+  width:60%;
   z-index:3;
   position:absolute;
+  top:160px;
+  left:300px;
 }
 .introduce p{
-  padding:200px 0px 0px 300px;
   color:white;
   width:50%;
   font-size:15px;
   line-height:normal;
   position:absolute;
+  top:200px;
+  left:300px;
   z-index:2;
 }
 img{
   position:absolute;
-  top:30%;
-  left:60%;
-  height:400px;
-  width:600px;
+  top:20%;
+  left:50%;
+  height:50%;
+  width:40%;
   z-index:1;
 }
   .introduce a{
